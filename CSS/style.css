@@ -1,3 +1,11 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+/* Defining the background color */
+:root {
+    --bg-color: #04151F;
+}
+
 /* Basic Reset - Reset all margins, padding, and box-sizing to zero. */
 * {
     margin: 0;
@@ -6,25 +14,50 @@
 }
 
 /* Set font family, color, and line height for body */
-body {
-    font-family: 'Arial', sans-serif;
-    /* Use Arial as primary font */
-    color: #333;
+body,
+html {
+    /* Use Roboto Mono as primary font */
+    font-family: 'Roboto Mono', monospace;
     /* Set text color to a dark grey */
-    line-height: 1.6;
+    color: #333;
     /* Adjust line height for readability */
+    line-height: 1.6;
+    /* Set font size for body text */
+    font-size: 14px;
+    /* Set background colour for the body */
+    background-color: var(--bg-color);
+    /* Set html/body height */
+    height: 100%;
+    /* Set padding for html/body */
+    padding: 0;
+    /* Set padding for margin */
+    margin: 0;
 }
 
-    /* Seting colours of header tags */
+/* Seting colours of header tags */
 h1 {
-    color: #548687;
+    color: white;
+    font-size: 2em;
 }
+
 h2,
 h3,
 h4,
 h5,
 h6 {
     color: #222;
+}
+
+/* Setting styling for the title */
+.title {
+    /* Set position absolute for title */
+    position: absolute;
+    /* Set horizontal padding for title */
+    padding-left: 180px;
+    /* Set white text color */
+    color: #fff;
+    /* Set vertical padding for title */
+    padding-top: 100px;
 }
 
 a {
