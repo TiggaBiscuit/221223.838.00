@@ -1,0 +1,171 @@
+/* Basic Reset - Reset all margins, padding, and box-sizing to zero. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font family, color, and line height for body */
+body {
+    font-family: 'Arial', sans-serif;
+    /* Use Arial as primary font */
+    color: #333;
+    /* Set text color to a dark grey */
+    line-height: 1.6;
+    /* Adjust line height for readability */
+}
+
+    /* Seting colours of header tags */
+h1 {
+    color: #548687;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222;
+}
+
+a {
+    /* Set link color and remove underline */
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/*Reset ul list-style */
+ul {
+    list-style-type: none;
+}
+
+/* Define container width */
+.container {
+    width: 80%;
+    /* Center container horizontally */
+    margin: 0 auto;
+}
+
+.row {
+    /* flex container with wrapping */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Columns with various widths */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* Typography - Setting font size for heading tags */
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+.btn {
+    /* inline-block display */
+    display: inline-block;
+
+    /* 10px padding on top and bottom, 20px on left and right */
+    padding: 10px 20px;
+
+    /* background color blue */
+    background-color: #007BFF;
+
+    /* white text color */
+    color: #fff;
+
+    /* centered text */
+    text-align: center;
+
+    /* 5px rounded corners */
+    border-radius: 5px;
+
+    /* remove underline */
+    text-decoration: none;
+}
+
+.btn:hover {
+    /* Set hover background color */
+    background-color: #0056b3;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    /* Grid System for Tablets */
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6 {
+        width: 100%;
+    }
+}
