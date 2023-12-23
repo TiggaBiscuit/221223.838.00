@@ -44,20 +44,19 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    color: #222;
-}
+h6,
 
 /* Setting styling for the title */
 .title {
+    /* Text align to center */
+    text-align: center;
     /* Set position absolute for title */
-    position: absolute;
-    /* Set horizontal padding for title */
-    padding-left: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* Set white text color */
     color: #fff;
     /* Set vertical padding for title */
-    padding-top: 100px;
 }
 
 a {
@@ -133,30 +132,6 @@ ul {
     width: 100%;
 }
 
-/* Typography - Setting font size for heading tags */
-h1 {
-    font-size: 2rem;
-}
-
-h2 {
-    font-size: 1.8rem;
-}
-
-h3 {
-    font-size: 1.6rem;
-}
-
-h4 {
-    font-size: 1.4rem;
-}
-
-h5 {
-    font-size: 1.2rem;
-}
-
-h6 {
-    font-size: 1rem;
-}
 
 .btn {
     /* inline-block display */
